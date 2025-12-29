@@ -175,7 +175,7 @@ This is an active learning project documenting the journey of mastering State Tr
 The repository will evolve as new concepts are learned and implemented. Code quality and architecture will improve progressively as understanding deepens.
 
 > [!IMPORTANT]
-> **📝 For Employers/Reviewers** <br>
+> **For Employers/Reviewers** <br>
 > This is an active learning project. Check the `main` branch for stable code. <br>
 > Additional branches will document the learning process as features are explored.
 
@@ -187,7 +187,7 @@ Third-party content (e.g: Epic Games assets) retains its original licensing. See
 
 ---
 
-**Q: What is State Tree? ** \
+**Q: What is State Tree?** \
 A: State Tree is Unreal Engine's system for creating modular, reusable AI logic and gameplay systems. It's designed to be more efficient and scalable than traditional Behavior Trees.
 
 **Q: Why a separate project from GasAbilities?** \
