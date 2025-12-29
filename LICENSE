@@ -1,0 +1,91 @@
+Copyright (c) 2025-2026 Fabio Pittaccio
+All Rights Reserved
+
+═══════════════════════════════════════════════════════════════
+
+📋 OVERVIEW
+
+This project is a personal portfolio and learning showcase created to demonstrate proficiency with Unreal Engine's State Trees.
+The source code is made publicly available for educational and reference purposes only.
+
+═══════════════════════════════════════════════════════════════
+
+✅ PERMITTED USE
+
+You are allowed to:
+• View and study the source code
+• Use code snippets as learning references in your own projects
+• Fork the repository for personal study purposes only
+• Link to this repository in articles, tutorials, or educational content upon citation
+
+═══════════════════════════════════════════════════════════════
+
+❌ RESTRICTIONS
+
+You are NOT permitted to:
+• Copy, redistribute, or republish this project in whole or in substantial part
+• Use this project as a foundation for your own portfolio or commercial work
+• Submit pull requests or modifications (this is a personal showcase)
+• Remove or modify copyright notices and attributions
+• Claim authorship or misrepresent the origin of this work
+• Use any included third-party assets outside their original licensing terms
+
+═══════════════════════════════════════════════════════════════
+
+🎯 SCOPE & INTENT
+
+This license applies to:
+• Original C++ and Blueprint implementations by Fabio Pittaccio
+• Project structure, architecture, and design patterns
+• Custom game logic and GAS implementations
+
+This project is intended as:
+• A demonstration of technical skills for potential employers
+• A learning resource for studying GAS implementation patterns
+• A reference for best practices in Unreal Engine development
+
+═══════════════════════════════════════════════════════════════
+
+📦 THIRD-PARTY CONTENT
+
+All third-party content remains the property of its respective owners.
+This project includes content from third-party sources that retain their original licenses and are NOT covered by this license:
+
+
+EPIC GAMES CONTENT:
+• characters, animations, assets
+
+Licensed under: Unreal Engine EULA https://www.unrealengine.com/en-US/eula/unreal
+
+Note: Epic Games content is NOT redistributable outside Unreal Engine projects and must be obtained directly from Epic Games.
+
+═══════════════════════════════════════════════════════════════
+
+⚖️ LEGAL NOTICES
+
+NO WARRANTY:
+This project is provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+
+LIMITATION OF LIABILITY:
+In no event shall Fabio Pittaccio be liable for any claim, damages, or other liability arising from the use of this project.
+
+═══════════════════════════════════════════════════════════════
+
+📧 CONTACT & PERMISSIONS
+
+For inquiries regarding:
+• Commercial use or licensing
+• Collaboration opportunities
+• Permission requests
+• Questions about implementations
+
+Please open an issue on this repository or contact the author directly.
+
+═══════════════════════════════════════════════════════════════
+
+🔗 REPOSITORIES 
+
+https://github.com/pittabio/StateTreeAI
+https://gitlab.com/pittabio/StateTreeAI
+
+Last updated: December 2025
