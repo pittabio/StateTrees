@@ -35,8 +35,10 @@ This project is part of a learning series focused on Unreal Engine systems:
 
 - **Future Integration** (planned): Full-scale project combining GAS, State Trees, and advanced AI 📅
 
-> 💡 **Learning Path** \
-> Each system is mastered in isolation before integration. This approach ensures deep understanding and creates reusable reference implementations.
+> [!TIP]
+> **Learning Path** <br>
+> Each system is mastered in isolation before integration. <br>
+> This approach ensures deep understanding and creates reusable reference implementations.
 
 ---
 
@@ -107,12 +109,12 @@ This repository documents the learning journey through Git branches:
 **Main Development:**
 `main`: Stable, working code from completed learning phases
 
+> [!TIP]
+> **Learning Approach** <br>
+> Branches will be created as needed for experimenting with different State Tree features and concepts. <br>
+> The structure will evolve organically as the project progresses.
 
-> 💡 Learning Approach 
-> Branches will be created as needed for experimenting with different State Tree features and concepts. \ 
-> The structure will evolve organically as the project progresses. \
-
-> 📝 Note 
+> [!NOTE]
 > As this is an active learning project, the branch structure and organization will be updated as development progresses.
 
 ---
@@ -145,7 +147,7 @@ This repository documents the learning journey through Git branches:
 ---
 
 ## 📦 Contents
-> 📝 Note 
+> [!WARNING]
 > This section will be updated as the project develops.
 
 ### Epic Games
@@ -155,19 +157,13 @@ All Epic Games content is used under the [Unreal Engine EULA](https://www.unreal
 ---
 
 ## 📚 Learning Resources
-> 📝 Note 
+> [!IMPORTANT]
 > Additional resources may be added as the project progresses.
 
 This project is being developed while studying from various sources (_thanks to_):
 
-### State Tree Tutorials
-- [Tony Kuhlmann](https://www.youtube.com/@uberaugh476) - [Creating AI using State Trees](https://youtu.be/IylIUlKZaRo?si=h_nE59_BcURmBLDR)
-
-### General Resources
 - [Epic Games Learning](https://dev.epicgames.com/community/unreal-engine/learning) - [Your First 60 Minutes with StateTree](https://dev.epicgames.com/community/learning/tutorials/lwnR/unreal-engine-your-first-60-minutes-with-statetree)
-- Unreal Engine Documentation - State Tree system documentation
-- Unreal Engine Forums - Community discussions and solutions
-- Various community resources and tutorials
+- [The Game Dev Cave](https://www.youtube.com/@thegamedevcave) - [Unreal State Tree Course](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E)
 
 ---
 
@@ -178,8 +174,9 @@ This is an active learning project documenting the journey of mastering State Tr
 
 The repository will evolve as new concepts are learned and implemented. Code quality and architecture will improve progressively as understanding deepens.
 
-> 📝 For Employers/Reviewers \
-> This is an active learning project. Check the `main` branch for stable code. \
+> [!IMPORTANT]
+> **📝 For Employers/Reviewers** <br>
+> This is an active learning project. Check the `main` branch for stable code. <br>
 > Additional branches will document the learning process as features are explored.
 
 ---
