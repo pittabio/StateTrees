@@ -1,6 +1,6 @@
 # StateTreeAI
 
-An experimental project for exploring Unreal Engine's State Tree system for AI behaviors, quest systems, and advanced gameplay logic.
+This is an active learning project documenting the journey of learning and mastering fundamentals and core concepts through practical implementation exploring Unreal Engine's State Tree system for AI behaviors, quest systems, and advanced gameplay logic.
 
 **Project Status:**
 🚧 Learning - In Progress
@@ -8,7 +8,7 @@ An experimental project for exploring Unreal Engine's State Tree system for AI b
 ---
 
 ## 📋 Description
-StateTreeAI is a learning and research project created to explore and master the State Tree system through practical examples. \
+StateTreeAI is a learning and research project created to explore and master the State Tree system through practical examples. <br>
 Built in Unreal Engine 5.7 using C++ and Blueprints, the project features a testing environment to experiment with various State Tree implementations for AI, quests, and complex gameplay systems.
 
 ## 🎯 Objectives
@@ -28,10 +28,12 @@ This repository serves as:
 ## 🔗 Related Projects
 This project is part of a learning series focused on Unreal Engine systems:
 - **GasAbilities** (completed): Gameplay Ability System ✅
-	- [GitHub](https://github.com/fabio-pitt/GasAbilities) / [GitLab](https://gitlab.com/fabio-pitt/GasAbilities)
+	- [GitHub](https://github.com/fabio-pitt/GasAbilities) 
+	- [GitLab](https://gitlab.com/fabio-pitt/GasAbilities)
 
 - **StateTreeAI** (this repo): State Trees, AI behaviors, and Quest System 🚧
-	- [GitHub](https://github.com/fabio-pitt/StateTreeAI) / [GitLab](https://gitlab.com/fabio-pitt/StateTreeAI)
+	- [GitHub](https://github.com/fabio-pitt/StateTreeAI)
+	- [GitLab](https://gitlab.com/fabio-pitt/StateTreeAI)
 
 - **Future Integration** (planned): Full-scale project combining GAS, State Trees, and advanced AI 📅
 
@@ -151,7 +153,7 @@ This repository documents the learning journey through Git branches:
 > This section will be updated as the project develops.
 
 ### Epic Games
-This project includes third-party content from **Epic Games**:
+This project includes third-party content from **Epic Games**: <br>
 All Epic Games content is used under the [Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/unreal) and is subject to Epic Games' licensing terms.
 
 ---
@@ -161,45 +163,41 @@ All Epic Games content is used under the [Unreal Engine EULA](https://www.unreal
 > Additional resources may be added as the project progresses.
 
 This project is being developed while studying from various sources (_thanks to_):
-
 - [Epic Games Learning](https://dev.epicgames.com/community/unreal-engine/learning) - [Your First 60 Minutes with StateTree](https://dev.epicgames.com/community/learning/tutorials/lwnR/unreal-engine-your-first-60-minutes-with-statetree)
 - [The Game Dev Cave](https://www.youtube.com/@thegamedevcave) - [Unreal State Tree Course](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E)
 
 ---
 
 ## 📝 Development Notes
-This is an active learning project documenting the journey of mastering State Trees in Unreal Engine.
-
-**Current Focus:** Learning State Tree fundamentals and core concepts through practical implementation.
-
-The repository will evolve as new concepts are learned and implemented. Code quality and architecture will improve progressively as understanding deepens.
+This being a project that documents the journey of learning and mastering the fundamentals and key concepts of state trees through practical implementation in Unreal Engine, the repository will evolve as new concepts are learned and implemented. <br>
+Code quality and architecture will improve progressively as understanding deepens.
 
 > [!IMPORTANT]
 > **For Employers/Reviewers** <br>
 > This is an active learning project. Check the `main` branch for stable code. <br>
-> Additional branches will document the learning process as features are explored.
+> [Additional branches](#repository-structure) will document the learning process as features are explored.
 
 ---
 
 ## 📄 License
-This project is protected by copyright. My original code and implementations are licensed for personal, non-commercial use only. 
+This project is protected by copyright. My original code and implementations are licensed for personal, non-commercial use only. <br>
 Third-party content (e.g: Epic Games assets) retains its original licensing. See the [LICENSE](LICENSE) file for complete details.
 
 ---
 
-**Q: What is State Tree?** \
-A: State Tree is Unreal Engine's system for creating modular, reusable AI logic and gameplay systems. It's designed to be more efficient and scalable than traditional Behavior Trees.
+**Q: What is State Tree?** <br>
+**A**: State Tree is Unreal Engine's system for creating modular, reusable AI logic and gameplay systems. It's designed to be more efficient and scalable than traditional Behavior Trees.
 
-**Q: Why a separate project from GasAbilities?** \
-A: Learning each system in isolation ensures deep understanding and creates focused reference material. Once both systems are mastered, they'll be integrated in a future project.
+**Q: Why a separate project from GasAbilities?** <br>
+**A**: Learning each system in isolation ensures deep understanding and creates focused reference material. Once both systems are mastered, they'll be integrated in a future project.
 
-**Q: What will be implemented in this project?** \
-A: The focus is on State Tree applications: AI behaviors, quest systems, and complex gameplay logic. The exact scope will evolve as learning progresses.
+**Q: What will be implemented in this project?** <br>
+**A**: The focus is on State Tree applications: AI behaviors, quest systems, and complex gameplay logic. The exact scope will evolve as learning progresses.
 
-**Q: When will this be completed?** \ 
-A: This is a learning project without a fixed timeline. Progress depends on understanding and experimentation. Updates will be pushed as concepts are learned and implemented.
+**Q: When will this be completed?** <br> 
+**A**: This is a learning project without a fixed timeline. Progress depends on understanding and experimentation. Updates will be pushed as concepts are learned and implemented.
 
-**Q: How does this relate to GasAbilities?** \
-A: GasAbilities explored the Gameplay Ability System. This project explores State Trees. A future project will combine both systems in a complete game implementation.
+**Q: How does this relate to GasAbilities?** <br>
+**A**: GasAbilities explored the Gameplay Ability System. This project explores State Trees. A future project will combine both systems in a complete game implementation.
 
 ---
