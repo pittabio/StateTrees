@@ -1,9 +1,30 @@
-# StateTreeAI
+# StateTrees
 
 This is an active learning project documenting the journey of learning and mastering fundamentals and core concepts through practical implementation exploring Unreal Engine's State Tree system for AI behaviors, quest systems, and advanced gameplay logic.
 
 **Project Status:**
 🚧 Learning - In Progress
+
+---
+
+## Table of Contents
+[Description](#-description)
+[Objectives](#-objectives)
+[Purpose](#-purpose)
+[Related Projects](#-related-projects)
+[Project Roadmap](#%EF%B8%8F-project-roadmap#-current-phase-learning)
+* [Current Phase](#-current-phase-learning)
+* [Advanced Phase](#-advanced-phase-planned)
+* [Future Integration](#-future-integration-planned)
+[Repository Structure](#-repository-structure)
+* [Branch Organization](#branch-organization)
+[Technologies](#%EF%B8%8F-technologies)
+[Contents](#-contents)
+* [Epic Games](#epic-games)
+[Learning Resources](#-learning-resources)
+[Development Notes](#-development-notes)
+[License](#-license)
+[Q & A](#%EF%B8%8F-q--a)
 
 ---
 
@@ -105,7 +126,7 @@ Integration of State Trees with the Gameplay Ability System from the GasAbilitie
 
 ## 📂 Repository Structure
 
-### Branch Organization**
+### Branch Organization
 This repository documents the learning journey through Git branches:
 
 **Main Development:**
@@ -185,6 +206,8 @@ Third-party content (e.g: Epic Games assets) retains its original licensing. See
 
 ---
 
+## ⁉️ Q & A
+
 **Q: What is State Tree?** <br>
 **A**: State Tree is Unreal Engine's system for creating modular, reusable AI logic and gameplay systems. It's designed to be more efficient and scalable than traditional Behavior Trees.
 
@@ -201,3 +224,5 @@ Third-party content (e.g: Epic Games assets) retains its original licensing. See
 **A**: GasAbilities explored the Gameplay Ability System. This project explores State Trees. A future project will combine both systems in a complete game implementation.
 
 ---
+
+[Return to top](#statetrees)
