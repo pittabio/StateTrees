@@ -4,3 +4,4 @@
 *.cpp text eol=lf
 *.h text eol=lf
 *.uproject text eol=lf
+*.uasset filter=lfs diff=lfs merge=lfs -text
