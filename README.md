@@ -196,7 +196,7 @@ Code quality and architecture will improve progressively as understanding deepen
 > [!IMPORTANT]
 > **For Employers/Reviewers** <br>
 > This is an active learning project. Check the `main` branch for stable code. <br>
-> [Additional branches](#repository-structure) will document the learning process as features are explored.
+> [Additional branches](#-repository-structure) will document the learning process as features are explored.
 
 ---
 
