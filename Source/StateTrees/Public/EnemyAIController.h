@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class STATETREEAI_API AEnemyAIController : public AAIController
+class STATETREES_API AEnemyAIController : public AAIController
 {
 	GENERATED_BODY()
 	

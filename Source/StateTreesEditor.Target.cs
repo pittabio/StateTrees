@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class StateTreeAIEditorTarget : TargetRules
+public class StateTreesEditorTarget : TargetRules
 {
-	public StateTreeAIEditorTarget( TargetInfo Target) : base(Target)
+	public StateTreesEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
-		ExtraModuleNames.Add("StateTreeAI");
+		ExtraModuleNames.Add("StateTrees");
 	}
 }

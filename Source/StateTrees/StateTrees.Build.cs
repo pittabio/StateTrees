@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class StateTreeAI : ModuleRules
+public class StateTrees : ModuleRules
 {
-	public StateTreeAI(ReadOnlyTargetRules Target) : base(Target)
+	public StateTrees(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
