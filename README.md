@@ -129,8 +129,9 @@ Integration of State Trees with the Gameplay Ability System from the GasAbilitie
 ### Branch Organization
 This repository documents the learning journey through Git branches:
 
-**Main Development:**
-`main`: Stable, working code from completed learning phases
+**Main Development:** <br>
+`main`: Stable, working code from completed learning phases <br>
+`basic-ai`: Basic functionality of State Trees - an AI character that moves randomly and can chase us if we enter a certain range, [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E) <br>
 
 > [!TIP]
 > **Learning Approach** <br>
