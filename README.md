@@ -187,6 +187,8 @@ All Epic Games content is used under the [Unreal Engine EULA](https://www.unreal
 This project is being developed while studying from various sources (_thanks to_):
 - [Epic Games Learning](https://dev.epicgames.com/community/unreal-engine/learning) - [Your First 60 Minutes with StateTree](https://dev.epicgames.com/community/learning/tutorials/lwnR/unreal-engine-your-first-60-minutes-with-statetree)
 - [The Game Dev Cave](https://www.youtube.com/@thegamedevcave) - [Unreal State Tree Course](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E)
+- **Extra:**
+	- An article by Jean-Paul Software: [Some Of The Things You Didn't Want To Know About State Tree](https://jeanpaulsoftware.com/2024/08/13/state-tree-hell/)
 
 ---
 
