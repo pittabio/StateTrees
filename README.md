@@ -16,13 +16,13 @@ This is an active learning project documenting the journey of learning and maste
 	- [Current Phase](#-current-phase-learning)
 	- [Advanced Phase](#-advanced-phase-planned)
 	- [Future Integration](#-future-integration-planned)
+- [Development Notes](#-development-notes)
 - [Repository Structure](#-repository-structure)
 	- [Branch Organization](#branch-organization)
 - [Technologies](#%EF%B8%8F-technologies)
 - [Contents](#-contents)
 	- [Epic Games](#epic-games)
 - [Learning Resources](#-learning-resources)
-- [Development Notes](#-development-notes)
 - [License](#-license)
 - [Q & A](#%EF%B8%8F-q--a)
 
@@ -72,7 +72,7 @@ This project follows a progressive learning path focused on mastering State Tree
 ┌─────────────────────┐     ┌─────────────────────┐     ┌─────────────────────┐
 │  Current Phase      │ ──→ │  Advanced Phase     │ ──→ │  Future Integration │
 ├─────────────────────┤     ├─────────────────────┤     ├─────────────────────┤
-│ *Learning*          │     │ *Planned*           │     │ *Planned*           │
+│ *Learning*          │     │ *Learning*          │     │ *Planned*           │
 │ State Tree Basics   │     │ Complex AI Systems  │     │ GAS + State Trees   │
 │ Simple AI Behaviors │     │ Quest System  	  │     │ Complete Game       │
 │ Core Concepts		  │		│ Advanced Patterns	  │		│ Production-Ready	  │
@@ -124,14 +124,27 @@ Integration of State Trees with the Gameplay Ability System from the GasAbilitie
 
 ---
 
+## 📝 Development Notes
+This project documents the journey of mastering State Tree fundamentals through practical implementation in Unreal Engine. As such, the repository will evolve as new concepts are learned and implemented. <br>
+Code quality and architecture will improve progressively as understanding deepens. <br>
+**Additional branches will be created to document the learning process as new features are explored.** <br>
+You can find a detailed overview of these branches and their specific goals in the [Branch Organization](#branch-organization) section below.
+
+> [!IMPORTANT]
+> **For Employers/Reviewers** <br>
+> Check the `main` branch for stable code <br>
+> experimental features and specific learning milestones are isolated in dedicated branches.
+
+---
+
 ## 📂 Repository Structure
+This repository documents the learning journey through Git branches
 
 ### Branch Organization
-This repository documents the learning journey through Git branches:
-
 **Main Development:** <br>
 `main`: Stable, working code from completed learning phases <br>
 `basic-ai`: Basic functionality of State Trees - an AI character that moves randomly and can chase us if we enter a certain range, [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E) <br>
+`quest`: Implementation of a modular Quest System using State Trees, focusing on objective logic such as reaching locations and interacting with the environment, [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3wIUKTauEf_PdQ9UU5ODG2F) <br>
 
 > [!TIP]
 > **Learning Approach** <br>
@@ -189,17 +202,6 @@ This project is being developed while studying from various sources (_thanks to_
 - [The Game Dev Cave](https://www.youtube.com/@thegamedevcave) - [Unreal State Tree Course](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E)
 - **Extra:**
 	- An article by Jean-Paul Software: [Some Of The Things You Didn't Want To Know About State Tree](https://jeanpaulsoftware.com/2024/08/13/state-tree-hell/)
-
----
-
-## 📝 Development Notes
-This being a project that documents the journey of learning and mastering the fundamentals and key concepts of state trees through practical implementation in Unreal Engine, the repository will evolve as new concepts are learned and implemented. <br>
-Code quality and architecture will improve progressively as understanding deepens.
-
-> [!IMPORTANT]
-> **For Employers/Reviewers** <br>
-> This is an active learning project. Check the `main` branch for stable code. <br>
-> [Additional branches](#-repository-structure) will document the learning process as features are explored.
 
 ---
 
