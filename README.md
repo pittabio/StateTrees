@@ -144,7 +144,7 @@ This repository documents the learning journey through Git branches
 **Main Development:** <br>
 `main`: Stable, working code from completed learning phases <br>
 `basic-ai`: Basic functionality of State Trees - an AI character that moves randomly and can chase us if we enter a certain range, [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E) <br>
-`quest`: Implementation of a modular Quest System using State Trees, focusing on objective logic such as reaching locations and interacting with the environment, [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3wIUKTauEf_PdQ9UU5ODG2F) <br>
+`quest` & `SaveLoad`: Implementation of a modular Quest System using State Trees, focusing on objective logic such as reaching locations and interacting with the environment, including UI and save/load system [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3wIUKTauEf_PdQ9UU5ODG2F) <br>
 
 > [!TIP]
 > **Learning Approach** <br>
