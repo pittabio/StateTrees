@@ -125,34 +125,24 @@ Integration of State Trees with the Gameplay Ability System from the GasAbilitie
 ---
 
 ## 📝 Development Notes
-This project documents the journey of mastering State Tree fundamentals through practical implementation in Unreal Engine. As such, the repository will evolve as new concepts are learned and implemented. <br>
-Code quality and architecture will improve progressively as understanding deepens. <br>
-**Additional branches will be created to document the learning process as new features are explored.** <br>
-You can find a detailed overview of these branches and their specific goals in the [Branch Organization](#branch-organization) section below.
+This project documents the journey of mastering State Tree fundamentals through practical implementation in Unreal Engine. Originally developed across multiple feature branches to isolate learning milestones, the repository has now been **consolidated into a single linear history**.
 
-> [!IMPORTANT]
-> **For Employers/Reviewers** <br>
-> Check the `main` branch for stable code <br>
-> experimental features and specific learning milestones are isolated in dedicated branches.
+All major systems—including AI Behaviors, Quest Logic, and Save/Load mechanics—are now integrated directly into the `main` branch. This ensures a more streamlined experience for exploration and testing while maintaining a clear, chronological progression of the learning process.
 
 ---
 
 ## 📂 Repository Structure
-This repository documents the learning journey through Git branches
+This repository follows a **monolithic linear structure** where all features are integrated into the primary development line.
 
 ### Branch Organization
-**Main Development:** <br>
-`main`: Stable, working code from completed learning phases <br>
-`basic-ai`: Basic functionality of State Trees - an AI character that moves randomly and can chase us if we enter a certain range, [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3x73FUEWY1W0HGXVGsFAw5E) <br>
-`quest` & `SaveLoad`: Implementation of a modular Quest System using State Trees, focusing on objective logic such as reaching locations and interacting with the environment, including UI and save/load system [following this playlist](https://www.youtube.com/playlist?list=PLoReGgpfex3wIUKTauEf_PdQ9UU5ODG2F) <br>
-
-> [!TIP]
-> **Learning Approach** <br>
-> Branches will be created as needed for experimenting with different State Tree features and concepts. <br>
-> The structure will evolve organically as the project progresses.
+- **`main`**: The single source of truth. It contains the full implementation of all explored features, including:
+    - **Core AI**: Basic State Tree movement and sensory systems.
+    - **Quest System**: Modular objective logic and environment interaction.
+    - **Persistence**: Save and Load systems for quest states and world data.
+    - **Environment**: State Tree-driven actor activation and map logic.
 
 > [!NOTE]
-> As this is an active learning project, the branch structure and organization will be updated as development progresses.
+> Previous feature branches (`basic-ai`, `quest`, `SaveLoad`, `advanced`) have been merged and retired to provide a cleaner, more professional project overview and to avoid conflicts with Unreal Engine's binary asset management.
 
 ---
 
