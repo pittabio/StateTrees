@@ -8,7 +8,8 @@
 
 // ===== DELEGATES ===== //
 
-// Delegate for damage events.
+// Delegate for damage events. 
+// NOTE: I used the internal Unreal system, so this delegate is no longer used, but still available
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnTakeDamage, float, Damage, AActor*, DamageCauser);
 
 // Delegate for entity death events.
