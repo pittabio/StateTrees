@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Code written by Fabio Pittaccio - 2026
 
 #pragma once
 
