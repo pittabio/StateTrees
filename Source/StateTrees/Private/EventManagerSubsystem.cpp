@@ -1,7 +1,7 @@
 ﻿// Code written by Fabio Pittaccio - 2026
 
-#include "StateTrees/Public/EventManagerSubsystem.h"
-#include "Utility/LogMessages.h"
+#include "EventManagerSubsystem.h"
+#include "LogMessages.h"
 
 // Take damage
 void UEventManagerSubsystem::OnTakeDamageEvent(const float Damage, AActor* DamageCauser) const
