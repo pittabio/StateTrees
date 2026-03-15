@@ -11,4 +11,7 @@ ALocationTrigger::ALocationTrigger()
 	// Create the text and attach the root component
 	TextComponent = CreateDefaultSubobject<UTextRenderComponent>("Text");
 	TextComponent->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
+	
+	// Visibility
+	AActor::SetActorHiddenInGame(false);
 }
