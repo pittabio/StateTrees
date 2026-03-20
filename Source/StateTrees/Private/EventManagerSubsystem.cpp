@@ -30,3 +30,17 @@ void UEventManagerSubsystem::OnEntityKilledEvent(AActor* EntityKilled) const
 	// Execute the broadcast
 	OnEntityKilled.Broadcast(EntityKilled);
 }
+
+// Entity Loading
+void UEventManagerSubsystem::OnEntityLoadingEvent(const FString& EntityID) const
+{
+	// Check if the string is empty
+	if (EntityID.IsEmpty()) return;
+	
+	// Log a message
+	ULogMessages::OnScreen(
+		FString::Printf(TEXT("Requesting loading of %s"), *EntityID));
+
+	// Execute the broadcast
+	OnEntityLoading.Broadcast(EntityID);
+}

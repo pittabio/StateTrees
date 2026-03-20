@@ -15,6 +15,9 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnTakeDamage, float, Damage, AActo
 // Delegate for entity death events.
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEntityKilled, AActor*, EntityKilled);
 
+// Delegate used to load and destroy enemies
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnEntityLoading, FString, EntityID);
+
 /**
  * @brief A GameInstanceSubsystem acting as a global event bus to facilitate 
  * decoupled communication, minimizing hard references and casting.
@@ -35,6 +38,10 @@ public:
 	UPROPERTY(BlueprintAssignable, BlueprintCallable, Category = "Events|Bind")
 	FOnEntityKilled OnEntityKilled;
 	
+	// Event triggered on loading and destroying enemies, passing the enemy actor.
+	UPROPERTY(BlueprintAssignable, BlueprintCallable, Category = "Events|Bind")
+	FOnEntityLoading OnEntityLoading;
+	
 	// ===== DISPATCHERS ===== //
 	
 	/** Broadcasts the OnTakeDamage event to all listeners. Call this when any entity receives damage.
@@ -49,4 +56,10 @@ public:
 	 */
 	UFUNCTION(BlueprintCallable, Category = "Events|Publishers", meta = (DisplayName = "Broadcast Entity Killed"))
 	void OnEntityKilledEvent(AActor* EntityKilled) const;
+	
+	/** Broadcast the OnRequestLoading event. Useful for loading and destroying enemies.
+	 * @param EntityID The ID of the entity to load.
+	 */
+	UFUNCTION(BlueprintCallable, Category = "Events|Publishers", meta = (DisplayName = "Broadcast Entity Loading"))
+	void OnEntityLoadingEvent(const FString& EntityID) const;
 };
