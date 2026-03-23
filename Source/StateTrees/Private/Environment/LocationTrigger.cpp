@@ -1,6 +1,6 @@
 ﻿// Code written by Fabio Pittaccio - 2026
 
-#include "LocationTrigger.h"
+#include "Environment/LocationTrigger.h"
 
 // Sets default values
 ALocationTrigger::ALocationTrigger()

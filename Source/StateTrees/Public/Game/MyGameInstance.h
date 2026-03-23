@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Events/EventManagerSubsystem.h"
 #include "Engine/GameInstance.h"
 #include "MyGameInstance.generated.h"
 
@@ -15,12 +16,12 @@ UCLASS()
 class STATETREES_API UMyGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
-
+	
 	// Called after the game world is ready. Used to bind subsystem events.
 	virtual void OnStart() override;
 	
 public:
 	// Called when an entity is killed. Implement in Blueprint to handle game logic (quests, saves, etc.).
 	UFUNCTION(BlueprintImplementableEvent, Category = "Events")
-	void OnEntityKilled(AActor* EntityKilled);
+	void OnEntityKilled(const FEventData& Data);
 };
