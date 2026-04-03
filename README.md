@@ -1,9 +1,9 @@
 # StateTrees
 
-This is an active learning project documenting the journey of learning and mastering fundamentals and core concepts through practical implementation exploring Unreal Engine's State Tree system for AI behaviors, quest systems, and advanced gameplay logic.
+This is a project documenting the journey of learning and mastering fundamentals and core concepts through practical implementation exploring Unreal Engine's State Tree system for AI behaviors, quest systems, and advanced gameplay logic.
 
 **Project Status:**
-🚧 Learning - In Progress
+✅ Completed
 
 ---
 
@@ -13,9 +13,10 @@ This is an active learning project documenting the journey of learning and maste
 - [Purpose](#-purpose)
 - [Related Projects](#-related-projects)
 - [Project Roadmap](#%EF%B8%8F-project-roadmap)
-	- [Current Phase](#-current-phase-learning)
-	- [Advanced Phase](#-advanced-phase-planned)
-	- [Future Integration](#-future-integration-planned)
+	- [Current Phase](#-current-phase)
+- [Future Vision](#-future-vision)
+	- [Integration Concept](#-integration-concept)
+	- [Potential Applications](#-potential-applications)
 - [Development Notes](#-development-notes)
 - [Repository Structure](#-repository-structure)
 	- [Branch Organization](#branch-organization)
@@ -30,7 +31,7 @@ This is an active learning project documenting the journey of learning and maste
 
 ## 📋 Description
 StateTreeAI is a learning and research project created to explore and master the State Tree system through practical examples. <br>
-Built in Unreal Engine 5.7 using C++ and Blueprints, the project features a testing environment to experiment with various State Tree implementations for AI, quests, and complex gameplay systems.
+Built in Unreal Engine 5.6 using C++ and Blueprints, the project features a testing environment to experiment with various State Tree implementations for AI, quests, and complex gameplay systems.
 
 ## 🎯 Objectives
 - Experiment with the State Tree system
@@ -52,7 +53,7 @@ This project is part of a learning series focused on Unreal Engine systems:
 	- [GitHub](https://github.com/fabio-pitt/GasAbilities) 
 	- [GitLab](https://gitlab.com/fabio-pitt/GasAbilities)
 
-- **StateTreeAI** (this repo): State Trees, AI behaviors, and Quest System 🚧
+- **StateTreeAI** (this repo): State Trees, AI behaviors, and Quest System ✅
 	- [GitHub](https://github.com/fabio-pitt/StateTreeAI)
 	- [GitLab](https://gitlab.com/fabio-pitt/StateTreeAI)
 
@@ -69,25 +70,18 @@ This project is part of a learning series focused on Unreal Engine systems:
 This project follows a progressive learning path focused on mastering State Trees and their applications.
 
 ```
-┌─────────────────────┐     ┌─────────────────────┐     ┌─────────────────────┐
-│  Current Phase      │ ──→ │  Advanced Phase     │ ──→ │  Future Integration │
-├─────────────────────┤     ├─────────────────────┤     ├─────────────────────┤
-│ *Learning*          │     │ *Learning*          │     │ *Planned*           │
-│ State Tree Basics   │     │ Complex AI Systems  │     │ GAS + State Trees   │
-│ Simple AI Behaviors │     │ Quest System  	  │     │ Complete Game       │
-│ Core Concepts		  │		│ Advanced Patterns	  │		│ Production-Ready	  │
-└─────────────────────┘     └─────────────────────┘     └─────────────────────┘
-      ↑
-┌────────────────────┐
-│ GasAbilities       │
-│ (separate project) │
-│ (completed)		 │
-└────────────────────┘
+┌─────────────────────┐      ┌─────────────────────┐      ┌──────────────────────────┐
+│    GasAbilities     │      │     StateTreeAI     │      │   Ultimate Integration   │
+├─────────────────────┤      ├─────────────────────┤      ├──────────────────────────┤
+│ - Completed -       │ ───→ │ - Completed -       │ ───→ │ - Future Vision -        │
+│ Core GAS mechanics  │      │ State Tree Logic    │      │ GAS + State Trees        │
+│ Ability Framework   │      │ AI & Quest Systems  │      │ Production-Ready Project │
+└─────────────────────┘      └─────────────────────┘      └──────────────────────────┘
 ```
 
-### 🎓 Current Phase: Learning
+### 🎓 Current Phase
 **Focus:** Foundation & Core Concepts 
-**Status:** In Progress 🚧
+**Status:** Completed ✅
 
 Learning the fundamentals of State Trees through practical implementation:
 - Understanding State Tree architecture and evaluation
@@ -96,31 +90,22 @@ Learning the fundamentals of State Trees through practical implementation:
 - State Tree tasks and evaluators
 - Integration with existing systems
 
-**Current Approach:** Iterative learning with focus on practical examples
+**Approach:** Iterative learning with focus on practical examples
 
-### 📚 Advanced Phase (Planned)
-**Focus:** Complex Systems & Production Patterns 
-**Status:** Planned 📅
+## 🚀 Future Vision: The Integration Paradigm
+Rather than just a roadmap, the goal is a technical synergy where GAS and State Trees merge into a high-performance gameplay framework. 
+This represents the culmination of this research phase, moving from isolated systems to a production-ready architecture.
 
-Future development will include:
-- Advanced AI behaviors and decision-making
-- Complete quest system implementation
-- State Tree best practices and optimization
-- Scalable architecture patterns
-- Performance considerations
+### 🧩 Integration Concept
+Combining these two systems unlocks a powerful design pattern:
+- Intelligent Decision-Making: The State Tree acts as the "brain," evaluating world state, player distance, and resources to decide when to engage.
+- Standardized Execution: The Gameplay Ability System (GAS) handles the "how," managing animations, cooldowns, and attribute changes (Health, Stamina) during state execution.
+- Reactive Quest Design: Using State Tree persistence to drive dynamic world events triggered by specific GAS effects or player achievements.
 
-### 🎮 Future Integration (Planned)
-**Focus:** Full-Scale Implementation 
-**Status:** Planned 📅
-
-Integration of State Trees with the Gameplay Ability System from the GasAbilities project:
-- Combined GAS + State Tree architecture
-- Complete game systems (AI, quests, abilities)
-- Production-ready implementation
-
-**Potential Directions** _(to be decided)_:
-- **MMORPG:** Dynamic quest system, AI companions, enemy behaviors
-- **MOBA:** Advanced AI behaviors, lane management, jungle AI
+### 🎮 Potential Applications
+- Complex AI Combat: Enemies that tacticaly choose abilities based on the player's status, managed via State Tree evaluators and GAS tags.
+- Dynamic RPG Ecosystems: Quest systems where NPCs change behavior states based on world-persisted data and completed objectives.
+- Scalable MOBA Logic: Managing lane-pushing behaviors through State Trees while handling hero combat interactions through GAS.
 
 ---
 
@@ -174,11 +159,9 @@ This repository follows a **monolithic linear structure** where all features are
 ---
 
 ## 📦 Contents
-> [!WARNING]
-> This section will be updated as the project develops.
 
 ### Epic Games
-This project includes third-party content from **Epic Games**: <br>
+This repository utilizes standard **Unreal Engine** assets for demonstration purposes such as the **UE Mannequin** used for AI movement and state visualization.
 All Epic Games content is used under the [Unreal Engine EULA](https://www.unrealengine.com/en-US/eula/unreal) and is subject to Epic Games' licensing terms.
 
 ---
@@ -206,20 +189,20 @@ Third-party content (e.g: Epic Games assets) retains its original licensing. See
 
 ## ⁉️ Q & A
 
-**Q: What is State Tree?** <br>
-**A**: State Tree is Unreal Engine's system for creating modular, reusable AI logic and gameplay systems. It's designed to be more efficient and scalable than traditional Behavior Trees.
-
-**Q: Why a separate project from GasAbilities?** <br>
-**A**: Learning each system in isolation ensures deep understanding and creates focused reference material. Once both systems are mastered, they'll be integrated in a future project.
-
-**Q: What will be implemented in this project?** <br>
-**A**: The focus is on State Tree applications: AI behaviors, quest systems, and complex gameplay logic. The exact scope will evolve as learning progresses.
-
-**Q: When will this be completed?** <br> 
-**A**: This is a learning project without a fixed timeline. Progress depends on understanding and experimentation. Updates will be pushed as concepts are learned and implemented.
-
 **Q: How does this relate to GasAbilities?** <br>
 **A**: GasAbilities explored the Gameplay Ability System. This project explores State Trees. A future project will combine both systems in a complete game implementation.
+
+**Q: What is State Tree?** <br> 
+**A**: State Tree is Unreal Engine's system for creating modular, reusable AI logic and gameplay systems, designed to be more efficient than traditional Behavior Trees.
+
+**Q: Why a separate project from GasAbilities?** <br>
+**A**: Learning each system in isolation ensures a deep understanding and creates a clean reference for future work.
+
+**Q: Is this project still active?** <br>
+**A**: This specific research project is completed. The implementations here serve as a foundational library for a future integrated project combining GAS and State Trees.
+
+**Q: How do these systems relate to each other?** <br>
+**A**: GasAbilities explored the Ability framework, while this project mastered the Logic/State framework. The next step is a full-scale game implementation using both.
 
 ---
 
